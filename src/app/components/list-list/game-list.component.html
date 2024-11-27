@@ -1,0 +1,13 @@
+<div class="col-md-4" *ngFor= "let list of games">
+<div class="card text-center">
+<div class="card-header">
+{{list.id}}
+<button class="btn btn-danger" (click)="deletelist(list.id)">
+<i class="far fa-trash-alt"></i>
+</button>
+</div>
+<div class="card-body">
+    <p>{{list.nombre}}</p>
+</div>
+</div>
+</div>

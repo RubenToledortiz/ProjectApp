@@ -1,0 +1,13 @@
+.card-header {
+    background-color: black;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10xp;
+  
+}
+
+.card{
+    margin-top: 40px;
+}
